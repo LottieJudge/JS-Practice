@@ -186,9 +186,28 @@
 // myShop.push('Dog Treats');
 // console.log(myShop);
 
-let myGals = ['Molly', 'Kay', 'Abi', 'Dianne'];
-let moreOfMyGals = ['Jessie', 'Franny', 'Elaine'];
-let allGals = myGals.concat(moreOfMyGals);
-console.log(allGals)
-myGals.pop();
-console.log(myGals);
+// let myGals = ['Molly', 'Kay', 'Abi', 'Dianne'];
+// let moreOfMyGals = ['Jessie', 'Franny', 'Elaine'];
+// let allGals = myGals.concat(moreOfMyGals);
+// console.log(allGals)
+// myGals.pop();
+// console.log(myGals);
+
+// let findValue = allGals.find(e => e === 'Franny');
+// console.log(findValue);
+
+// let books = ['Dune', 'Lord of the rings', 'Dirk Gentleys Holistic Detective Agency', 'Saga', '50 shades of grey'];
+// let valueToDel = books.indexOf('Hell Boy');
+// console.log(valueToDel);
+
+// let shoppingList = [];
+// shoppingList.push('Milk', 'Bread', 'apples');
+// shoppingList.splice(1, 1, 'Bananas',  'eggs');
+// shoppingList.pop();
+// shoppingList.sort()
+// let milkVal = shoppingList.indexOf('Milk');
+// shoppingList.splice(2, 0, 'Carrots', 'Lettuce');
+// let newList =[ 'Juice', 'pop'];
+// let bigList = shoppingList.concat(newList, newList);
+// console.log(bigList);
+
