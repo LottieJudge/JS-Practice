@@ -211,3 +211,15 @@
 // let bigList = shoppingList.concat(newList, newList);
 // console.log(bigList);
 
+// let arr1 = ['words', 'are', 'good']
+// let arr2 = ['here\'s some more', 'one more']
+// let arr3 = ['and numbers', 1, 2, 3]
+// let multidimensionalArray = [arr1, arr2, arr3];
+// let indexArr = multidimensionalArray[0][1];
+// console.log(multidimensionalArray);
+// console.log(indexArr);
+
+let arr1 = [1, 2, 3];
+let arrNest = [arr1, arr1, arr1];
+let val1 = arrNest [1][1];
+console.log(val1);
