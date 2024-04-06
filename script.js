@@ -169,8 +169,26 @@
 //   return `Hello ${name}`
 // };
 
-// console.log(greet('Scott'));
+// // console.log(greet('Scott'));
 
-let arr = ['watson', 6, true, 3.6];
-arr[1] = 'Chewie';
-console.log(arr[1]);
+// let arr = ['watson', 6, true, 3.6];
+// arr[1] = 'Chewie';
+// console.log(arr[1]);
+
+//Practice Exercise 3.1
+
+// const myShop = ['Milk', 'Bread', 'Apples', 'Chocolate', 'Rice'];
+// console.log(myShop.length);
+// myShop[1] = 'Bananas';
+// myShop.splice(2, 0, 'Apple pie');
+// myShop.splice(3, 1, 'Wine');
+
+// myShop.push('Dog Treats');
+// console.log(myShop);
+
+let myGals = ['Molly', 'Kay', 'Abi', 'Dianne'];
+let moreOfMyGals = ['Jessie', 'Franny', 'Elaine'];
+let allGals = myGals.concat(moreOfMyGals);
+console.log(allGals)
+myGals.pop();
+console.log(myGals);
