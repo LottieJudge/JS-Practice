@@ -222,4 +222,108 @@
 let arr1 = [1, 2, 3];
 let arrNest = [arr1, arr1, arr1];
 let val1 = arrNest [1][1];
-console.log(val1);
+// console.log(val1);
+
+let me = {
+  firstName: 'Lottie',
+  lastName: 'Judge',
+  age: 30,
+  faveColour: 'Blue', 
+  bestQuality: 'Candor',
+  likesCoriander: false,
+  address: {
+    flat: 18,
+    block: 'block d',
+    street: 'Farringdon Lane'
+  }
+}
+
+me.address.flat = 18;
+console.log(me.address.flat);
+
+// let myCar = {
+//   make: 'Ferari',
+//   model: 'the best one',
+//   horsePower: 17,
+//   works: true
+// };
+// let newValue = myCar.colour = 'blue';
+// // newValue = myCar['forSale'] = false;
+// // console.log(myCar.make + ' ' + myCar.model);
+
+// //objects in array
+
+// let addresses = [{
+//   street: 'first street',
+//   number: 12,
+//   postCode: 'PE18 1AX',
+//   city: 'London'
+// },
+// {
+//   street: 'Second Street',
+//   number: 2,
+//   postCode: 'PE18 1AX',
+//   city: 'London'
+// }]
+
+// console.log(addresses[1].street);
+
+// let people = {
+//   friends: [],
+// }
+
+// let scott = {
+//   firstName: 'Scott',
+//   lastName: 'Godfrey',
+//   id: '#001'
+// }
+
+// let kay = {
+//   firstName: 'Kay',
+//   lastName: 'Judge',
+//   id: '#002'
+// }
+
+// let molly = {
+//   firstName: 'Molly',
+//   lastName: 'Judge',
+//   id: '#003'
+// }
+// people.friends.push(scott, kay, molly);
+// console.log(people);
+
+// const theList = ['Laurence', 'Svekis', true, 35, null, undefined, {test: 'one', score: 55}, ['one', 'two']];
+// theList.shift()
+// theList.pop()
+// theList.unshift('FIRST');
+// theList[2] = 'MIDDLE';
+// theList.splice(3, 4, 'Hello World!')
+// theList.push('LAST');
+// console.log(theList);
+
+// let inventory = [];
+// let productOne = {
+//   name: 'Product One',
+//   model: '1203',
+//   cost: "£399",
+//   quantity: 700
+// }
+
+// let productTwo= {
+//   name: 'Product Two',
+//   model: '1204',
+//   cost: "£399",
+//   quantity: 5
+// }
+
+// let productThree = {
+//   name: 'Product Three',
+//   model: '1205',
+//   cost: "£399",
+//   quantity: 700
+// }
+
+// inventory.push(productOne, productTwo, productThree)
+// console.log(inventory)
+// let quantityThree = inventory[2].quantity;
+// console.log(quantityThree);
