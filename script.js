@@ -1281,13 +1281,23 @@
 //   }
 // }
 
-var mergeAlternately = function(word1, word2) {
-  let merged = word1 + word2
-let sorted = merged.split('').sort().join('')
-return sorted;
-};
+// var mergeAlternately = function(word1, word2) {
+//   let merged = word1 + word2
+// let sorted = merged.split('').sort().join('')
+// return sorted;
+// };
 
-let word1 = 'bum'
-let word2 = 'shitting'
+// let word1 = 'bum'
+// let word2 = 'shitting'
 
-console.log(mergeAlternately(word1, word2));
+// console.log(mergeAlternately(word1, word2));
+
+// NODES 
+
+class Node {
+  constructor(value, left, right){
+    this.value = value;
+    this.left = left;
+    this.right = right;
+  }
+}
