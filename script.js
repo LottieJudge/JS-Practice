@@ -1281,13 +1281,58 @@
 //   }
 // }
 
-var mergeAlternately = function(word1, word2) {
-  let merged = word1 + word2
-let sorted = merged.split('').sort().join('')
-return sorted;
-};
+// var mergeAlternately = function(word1, word2) {
+//   let merged = word1 + word2
+// let sorted = merged.split('').sort().join('')
+// return sorted;
+// };
 
-let word1 = 'bum'
-let word2 = 'shitting'
+// let word1 = 'bum'
+// let word2 = 'shitting'
 
-console.log(mergeAlternately(word1, word2));
+// console.log(mergeAlternately(word1, word2));
+
+// NODES 
+
+class Node {
+  constructor(value){
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+class BinaryTree{
+  constructor(root){
+    this.root = null
+  }
+  add(value){
+    var newNode = new Node(value)
+    if (this.root === null){
+      this.root = newNode;
+      return this;
+    }
+
+    let current = this.root;
+    while(current){
+      if(value === current.value) return undefined;
+      if(value < current.value){
+        if(current.left === null){
+          current.left = newNode
+          return this;
+        }
+        current = current.left
+      } else {
+        if(current.right === null){
+          current.right = newNode
+          return this;
+        }
+        current = current.right
+      }
+    }
+  }
+
+  depthFirstSearch(){
+    
+  }
+}
