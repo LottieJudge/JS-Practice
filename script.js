@@ -1294,45 +1294,15 @@
 
 // NODES 
 
-class Node {
-  constructor(value){
+class Node{
+  constructor(value,next){
     this.value = value;
-    this.left = null;
-    this.right = null;
+    this.next = null
   }
 }
 
-class BinaryTree{
-  constructor(root){
-    this.root = null
-  }
-  add(value){
-    var newNode = new Node(value)
-    if (this.root === null){
-      this.root = newNode;
-      return this;
-    }
-
-    let current = this.root;
-    while(current){
-      if(value === current.value) return undefined;
-      if(value < current.value){
-        if(current.left === null){
-          current.left = newNode
-          return this;
-        }
-        current = current.left
-      } else {
-        if(current.right === null){
-          current.right = newNode
-          return this;
-        }
-        current = current.right
-      }
-    }
-  }
-
-  depthFirstSearch(){
+class LinkedList{
+  constructor(){
     
   }
 }
