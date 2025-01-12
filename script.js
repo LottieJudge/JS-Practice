@@ -1334,22 +1334,17 @@ class LinkedList{
     remove(value){
       let current = this.head
       let previous
-      if(current === value){
-        this.current = current.next
+      if(current.value === value){
+        this.head = current.next
       } else{
-        while(current !== value){
+        while(current.value !== value){
           previous = current;
           current = current.next
         }
         previous.next = current.next
       }
-      length --;
     }
   }
-
-
-
-
 
 const list = new LinkedList();
 
