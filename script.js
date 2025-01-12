@@ -1363,4 +1363,5 @@ console.log(list.find(40));
 list.remove(20); 
 console.log(list.find(20)); 
 
-// 
+// add in codecademy linked list 
+
