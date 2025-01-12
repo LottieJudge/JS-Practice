@@ -1295,16 +1295,61 @@
 // NODES 
 
 class Node{
-  constructor(value,next){
+  constructor(value){
     this.value = value;
     this.next = null
   }
 }
 
 class LinkedList{
-  constructor(head){
+  constructor(){
     this.head = head
   }
-
   
-}
+
+  add(value){
+    let newNode = new Node(value)
+    if(this.head === null){
+      this.head = newNode;
+      return;
+    }
+    let current = this.head;
+    while(current.next !== null){
+      current = current.next
+    }
+    current.next = newNode
+    }
+  
+
+  find(value, x){
+    let current = this.head;
+    while(current !== null){
+      if(current.data === x){
+        return true;
+        current = current.next
+      }
+      return false;
+    }
+  }
+  
+    remove(value, x){
+      let current = this.head
+      if(current)
+    }
+  }
+
+
+
+
+
+const list = new LinkedList();
+
+list.add(10);
+list.add(20);
+list.add(30);
+
+console.log(list.find(20)); 
+console.log(list.find(40)); 
+
+list.remove(20); 
+console.log(list.find(20)); /
