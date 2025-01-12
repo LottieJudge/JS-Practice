@@ -1303,39 +1303,44 @@ class Node{
 
 class LinkedList{
   constructor(){
-    this.head = null
+    this.head = null //leaving the head empty so can create new 
   }
   
   add(value){
-    let newNode = new Node(value)
-    if(this.head === null){
+    let newNode = new Node(value) //initing the new node with a value 
+    if(this.head === null){ // if no head add the node to the front of the head 
       this.head = newNode;
       return;
     }
     let current = this.head;
-    while(current.next !== null){
+    while(current.next !== null){ //going through the list until there's an empty spot (the end)
       current = current.next
     }
-    current.next = newNode
+    current.next = newNode // when u get to the end so the .next is null you add in the new Node 
     }
   
 
   find(value){
-    let current = this.head;
-    while(current !== null){
+    let current = this.head; // starting at the beginning of the linked list 
+    while(current !== null){ // looping through the list as long as there's data 
       if(current.value === value){
-        return true;
+        return true;// in the instance if it equals the value return it 
       }
-      current = current.next
+      current = current.next 
     }
     return false;
   }
   
     remove(value){
       let current = this.head
-      let previous
-      if(current.value === value){
-        this.head = current.next
+      let previous = null
+
+      if (current === null){ //handling edge case ofg empty list
+        return;
+      }
+
+      if(current.value === value){ //check if the head is to be removed 
+        this.head = current.next //update the head so it's the next node 
       } else{
         while(current.value !== value){
           previous = current;
@@ -1357,3 +1362,5 @@ console.log(list.find(40));
 
 list.remove(20); 
 console.log(list.find(20)); 
+
+// 
