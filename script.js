@@ -1198,16 +1198,16 @@
 //   return xToReverseNum;
 // }
 
-// function isPalandrome(x) {
-//   let xToString = x.toString()
-//   let reverse = xToString.split("").reverse().join('')
-//   console.log(reverse);
-//   const isPal = xToString === reverse ? true : false;
-//   return isPal;
+function isPalandrome(x) {
+  let xToString = x.toString()
+  let reverse = xToString.split("").reverse().join('')
+  console.log(reverse);
+  const isPal = xToString === reverse ? true : false;
+  return isPal;
 
-//   };
+  };
 
-//   console.log(isPalandrome(10));
+  console.log(isPalandrome(10));
 
 // function expect(x) {  
   
