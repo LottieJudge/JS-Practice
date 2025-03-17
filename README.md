@@ -1,9 +1,9 @@
-# Not for human consumption 
+# ☕📜 JavaScript practice and Revision
 
-## a big mess of practice questions from books and the web and other coders
+This repository is a collection of JS practice exercises, notes, and revision materials. It serves as a personal learning space to reinforce concepts, experiment with code, and to track my progress.
 
-### used for practicing Version control, JS, Node, React etc
+## 📌 About
+- Covers exercises from **Python books**, **Codecademy courses**, **CoderByte**, **LeetCode** && **Tech Assessments**.
+- Includes **notes, small projects, and problem-solving exercises**.
+- Organised for **easy reference** across different devices. So I can find what I need when I need it. 
 
-If you're here cos I sent you my github pls look away and go to my finished pinned projects this one's half baked 
-
-(but beautiful to me) 
