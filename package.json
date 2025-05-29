@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "dependencies": {
     "nodemon": "^3.1.4"
@@ -8,7 +8,9 @@
   "name": "js-practice",
   "version": "1.0.0",
   "main": "script.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^11.5.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

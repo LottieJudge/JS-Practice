@@ -2,14 +2,3 @@
 
 // it helps others to understand what the code is trying to do e.g 
 
-it('accepts the customer name', () => {
-  const name = 'Hungry Person';
-
-  browser.url('/');
-  browser.setValue('#name', name);
-  browser.click('#submit-order');
-  browser.url('/');
-
-  assert.include(browser.getText('#deliver-to'), name);
-});
-
