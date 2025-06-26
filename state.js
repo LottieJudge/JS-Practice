@@ -6,7 +6,11 @@ import { useState } from "react"
 
 // Built in Hooks 
 
-const hookUseState = "the useState hook allows us to track the state of an app in a function component.  "
+const hookUseState = "the useState hook allows us to track the state of an app in a function component. it takes in two values, the current state and the function that updates the state. In the below color is the state and set color is the functions"
+
+function FaveColor(){
+  const [color, setColor] = useState("")
+};
 
 const hookUseEffect = ""
 
