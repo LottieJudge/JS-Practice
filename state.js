@@ -12,7 +12,7 @@ function FaveColor(){
   const [color, setColor] = useState("")
 };
 
-const hookUseEffect = ""
+const hookUseEffect = "Allows you to perform side effects in your components such as timers and fetching data. "
 
 const hookUseContext = ""
 
