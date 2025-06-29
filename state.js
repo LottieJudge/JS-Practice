@@ -8,9 +8,19 @@ import { useState } from "react"
 
 const hookUseState = "the useState hook allows us to track the state of an app in a function component. it takes in two values, the current state and the function that updates the state. In the below color is the state and set color is the functions"
 
-function FaveColor(){
-  const [color, setColor] = useState("")
-};
+export default function colorPicker(){
+const [color, setColor] = useState()
+
+const divStyle = {backgroundColor: 'blue'};
+
+return (
+  <div style={divStyle}>
+    <p> the color is {color}</p>
+  </div>
+)
+}
+
+
 
 const hookUseEffect = "Allows you to perform side effects in your components such as timers and fetching data. "
 
