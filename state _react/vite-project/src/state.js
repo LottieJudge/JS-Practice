@@ -8,6 +8,8 @@
 
 const hookUseState = "the useState hook allows us to track the state of an app in a function component. it takes in two values, the current state and the function that updates the state. In the below color is the state and set color is the functions"
 
+// Initialising state - this is when you set the state to have a default, it can then be changed in the same way using usestate but it has a default setting. 
+
 
 
 
